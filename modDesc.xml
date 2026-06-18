@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="109">
+    <author>Nalathan</author>
+    <version>1.0.0.0</version>
+    <title>
+        <en>Forage Silo Extension</en>
+        <de>Futter Silo Erweiterung</de>
+        <fr>Extension De Silo Fourrager</fr>
+    </title>
+    <description>
+        <en><![CDATA[Forage Silo Extension adds extra storage options for feed and bulk materials to normal farm silos.
+
+The feed silo extension is enabled by default. This allows normal farm silos to accept and unload additional fill types that are relevant for producing and storing animal feed. 
+The full fill type extension can optionally be enabled in the game settings. This allows normal farm silos to store all fill types registered in the savegame, as long as they are provided correctly by the game, map, DLCs or other mods. 
+Existing stored fill types are protected, so already stored material should not be lost when the settings are set differently.
+
+Important:
+Disabling additional fill types takes effect immediately.
+Enabling additional fill types again requires saving and reloading the savegame before the silo triggers accept the newly enabled fill types.
+After setting the options, vehicles may also need to leave and re-enter the unload trigger area so the base game trigger can refresh its accepted fill types.
+
+Features:
+- Feed silo extension enabled by default
+- Option for all registered fill types
+- Protection for already stored fill types
+- Support for base game, DLCs, mod maps and additional fill type mods]]></en>
+        <de><![CDATA[Die Forage Silo Extension erweitert normale Hofsilos um zusätzliche Lageroptionen für Futter und Schüttgut.
+
+Standardmäßig ist die Futtersiloerweiterung aktiv. Dadurch können normale Hofsilos zusätzliche FillTypes aufnehmen und wieder ausgeben, die zur Herstellung und Lagerung von Tierfutter relevant sind. 
+Über die Spieleinstellungen kann optional die vollständige FillType Erweiterung aktiviert werden. Damit können normale Hofsilos alle im Spielstand registrierten FillTypes lagern, sofern diese vom Spiel, der Karte, DLCs oder anderen Mods korrekt bereitgestellt werden. 
+Bereits eingelagerte FillTypes werden geschützt, damit vorhandenes Material bei anderer Einstellung nicht verloren geht.
+
+Wichtig:
+Das Deaktivieren zusätzlicher FillTypes wirkt sofort.
+Das erneute Aktivieren zusätzlicher FillTypes erfordert Speichern und erneutes Laden des Spielstands, bevor die Silo-Trigger die neu aktivierten FillTypes annehmen.
+Nach dem Setzen der Optionen kann es zusätzlich nötig sein, den Entladetrigger zu verlassen und neu anzufahren, damit der Trigger des Basisspiels die angenommenen FillTypes aktualisiert.
+
+Funktionen:
+- Futtersiloerweiterung standardmäßig aktiv
+- Option für alle registrierten FillTypes
+- Schutz bereits eingelagerter FillTypes
+- Unterstützung für Basegame, DLCs, Modmaps und zusätzliche FillType Mods]]></de>
+        <fr><![CDATA[Forage Silo Extension ajoute des options de stockage supplémentaires pour le fourrage et les matières en vrac aux silos de ferme normaux.
+
+L'extension de silo fourrager est activée par défaut. Les silos de ferme normaux peuvent ainsi accepter et décharger des types de remplissage supplémentaires utiles pour la production et le stockage de l'alimentation animale.
+L'extension complète des types de remplissage peut être activée en option dans les paramètres du jeu. Les silos de ferme normaux peuvent alors stocker tous les types de remplissage enregistrés dans la sauvegarde, à condition qu'ils soient correctement fournis par le jeu, la carte, les DLC ou d'autres mods.
+Les types de remplissage déjà stockés sont protégés afin que les matières déjà stockées restent disponibles avec une autre configuration.
+
+Important :
+La désactivation des types de remplissage supplémentaires prend effet immédiatement.
+La réactivation des types de remplissage supplémentaires nécessite de sauvegarder puis de recharger la sauvegarde avant que les déclencheurs des silos acceptent les types nouvellement activés.
+Après le réglage des options, les véhicules peuvent aussi devoir quitter puis rentrer à nouveau dans la zone du déclencheur de déchargement afin que le déclencheur du jeu de base actualise les types de remplissage acceptés.
+
+Fonctions :
+- Extension de silo fourrager activée par défaut
+- Option pour tous les types de remplissage enregistrés
+- Protection des types de remplissage déjà stockés
+- Prise en charge du jeu de base, des DLC, des cartes moddées et des mods ajoutant des types de remplissage]]></fr>
+    </description>
+<l10n>
+        <text name="fse_setting_title">
+            <en>Forage Silo Extension</en>
+            <de>Futter Silo Erweiterung</de>
+            <fr>Extension De Silo Fourrager</fr>
+        </text>
+        <text name="fseFeedFillTypes_short">
+            <en>Feed fill types</en>
+            <de>Futtersiloerweiterung</de>
+            <fr>Types pour fourrage</fr>
+        </text>
+        <text name="fseFeedFillTypes_long">
+            <en>All fill types used to produce animal feed</en>
+            <de>Alle FillTypes, die zur Herstellung von Tierfutter benötigt werden</de>
+            <fr>Tous les types utilisés pour produire de l'alimentation animale</fr>
+        </text>
+        <text name="fseAllFillTypes_short">
+            <en>Unlock all fill types</en>
+            <de>Alle FillTypes freischalten</de>
+            <fr>Débloquer tous les types</fr>
+        </text>
+        <text name="fseAllFillTypes_long">
+            <en>Unlock all registered fill types for normal farm silos</en>
+            <de>Alle registrierten FillTypes für normale Hofsilos freischalten</de>
+            <fr>Débloquer tous les types enregistrés pour les silos de ferme normaux</fr>
+        </text>
+    </l10n>
+    <iconFilename>icon_ForageSiloExtension.dds</iconFilename>
+    <multiplayer supported="true" />
+    <extraSourceFiles>
+        <sourceFile filename="scripts/ForageSiloExtension.lua" />
+    </extraSourceFiles>
+</modDesc>
