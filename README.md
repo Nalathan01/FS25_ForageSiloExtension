@@ -41,7 +41,7 @@ Please include:
 
 Official download on ModHub:
 
-MODHUB_LINK_HERE
+https://www.farming-simulator.com/mod.php?mod_id=364141
 
 ## Links
 
