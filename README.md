@@ -39,6 +39,10 @@ Please include:
 
 ## Download
 
+Always up to date on Forbidden Mods:
+
+https://forbidden-mods.de/filebase/file/77294-futter-silo-erweiterung/
+
 Official download on ModHub:
 
 https://www.farming-simulator.com/mod.php?mod_id=364141
@@ -47,5 +51,6 @@ https://www.farming-simulator.com/mod.php?mod_id=364141
 
 - Website: https://www.nalathan.de/
 - YouTube: https://www.youtube.com/@nalathangaming
-- ModHub: MODHUB_LINK_HERE
+- Forbidden Mods: https://forbidden-mods.de/filebase/file/77294-futter-silo-erweiterung/
+- ModHub: https://www.farming-simulator.com/mod.php?mod_id=364141
 - Issues: https://github.com/Nalathan01/FS25_ForageSiloExtension/issues
