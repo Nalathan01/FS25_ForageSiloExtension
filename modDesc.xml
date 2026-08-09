@@ -23,7 +23,9 @@ Features:
 - Feed silo extension enabled by default
 - Option for all registered fill types
 - Protection for already stored fill types
-- Support for base game, DLCs, mod maps and additional fill type mods]]></en>
+- Support for base game, DLCs, mod maps and additional fill type mods
+
+GitHub: https://github.com/Nalathan01/FS25_ForageSiloExtension/issues]]></en>
         <de><![CDATA[Die Forage Silo Extension erweitert normale Hofsilos um zusätzliche Lageroptionen für Futter und Schüttgut.
 
 Standardmäßig ist die Futtersiloerweiterung aktiv. Dadurch können normale Hofsilos zusätzliche FillTypes aufnehmen und wieder ausgeben, die zur Herstellung und Lagerung von Tierfutter relevant sind. 
@@ -39,7 +41,9 @@ Funktionen:
 - Futtersiloerweiterung standardmäßig aktiv
 - Option für alle registrierten FillTypes
 - Schutz bereits eingelagerter FillTypes
-- Unterstützung für Basegame, DLCs, Modmaps und zusätzliche FillType Mods]]></de>
+- Unterstützung für Basegame, DLCs, Modmaps und zusätzliche FillType Mods
+
+GitHub: https://github.com/Nalathan01/FS25_ForageSiloExtension/issues]]></de>
         <fr><![CDATA[Forage Silo Extension ajoute des options de stockage supplémentaires pour le fourrage et les matières en vrac aux silos de ferme normaux.
 
 L'extension de silo fourrager est activée par défaut. Les silos de ferme normaux peuvent ainsi accepter et décharger des types de remplissage supplémentaires utiles pour la production et le stockage de l'alimentation animale.
@@ -55,7 +59,9 @@ Fonctions :
 - Extension de silo fourrager activée par défaut
 - Option pour tous les types de remplissage enregistrés
 - Protection des types de remplissage déjà stockés
-- Prise en charge du jeu de base, des DLC, des cartes moddées et des mods ajoutant des types de remplissage]]></fr>
+- Prise en charge du jeu de base, des DLC, des cartes moddées et des mods ajoutant des types de remplissage
+
+GitHub : https://github.com/Nalathan01/FS25_ForageSiloExtension/issues]]></fr>
     </description>
 <l10n>
         <text name="fse_setting_title">
