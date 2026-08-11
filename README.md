@@ -1,56 +1,26 @@
 # Forage Silo Extension
 
-Forage Silo Extension is a Farming Simulator 25 mod that extends normal farm silos with additional storage options for feed and bulk materials.
+Normal farm silos only take a narrow set of fill types out of the box, this mod widens what they'll accept so you don't need a dedicated storage building for every feed ingredient.
 
-## Features
+## What it does
 
-- Feed silo extension enabled by default
-- Allows normal farm silos to accept additional feed-related fill types
-- Optional setting for all registered fill types
-- Protects already stored fill types
-- Supports base game, DLCs, mod maps and additional fill type mods
-- Works with fill types that are correctly registered in the active savegame
+- Feed silo extension is on by default, lets normal farm silos accept additional feed-related fill types
+- Optional setting to open silos up to every registered fill type instead
+- Fill types already stored in a silo stay protected even if you change the setting afterward
+- Works with the base game, DLCs, mod maps and fill types added by other mods, as long as they're properly registered in the active savegame
 
-## Important notes
+## Good to know
 
-Disabling additional fill types takes effect immediately.
-
-Enabling additional fill types again requires saving and reloading the savegame before the silo triggers accept the newly enabled fill types.
-
-After changing the options, vehicles may also need to leave and re-enter the unload trigger area so the base game trigger can refresh its accepted fill types.
-
-## Current version
-
-1.0.0.0
+Turning additional fill types off takes effect immediately. Turning them back on needs a save and reload before silo triggers pick up the newly enabled types again, and sometimes a vehicle has to leave and re-enter the unload trigger area for the base game trigger to refresh what it accepts.
 
 ## Feedback
 
-Bug reports, compatibility feedback and feature requests are welcome through GitHub Issues.
-
-Please include:
-
-- Mod version
-- Game version
-- Map name
-- Silo or placeable mod used
-- Other relevant fill type or storage mods
-- A short description of what happened
-- log.txt if the issue is technical
-
-## Download
-
-Always up to date on Forbidden Mods:
-
-https://forbidden-mods.de/filebase/file/77294-futter-silo-erweiterung/
-
-Official download on ModHub:
-
-https://www.farming-simulator.com/mod.php?mod_id=364141
+Silo not accepting something it should? Open a GitHub issue with your mod/game version, the map, which silo or placeable, and any other fill type/storage mods you're running. `log.txt` helps if it looks like a script error.
 
 ## Links
 
-- Website: https://www.nalathan.de/
-- YouTube: https://www.youtube.com/@nalathangaming
 - Forbidden Mods: https://forbidden-mods.de/filebase/file/77294-futter-silo-erweiterung/
 - ModHub: https://www.farming-simulator.com/mod.php?mod_id=364141
+- Website: https://www.nalathan.de/
+- YouTube: https://www.youtube.com/@nalathangaming
 - Issues: https://github.com/Nalathan01/FS25_ForageSiloExtension/issues
